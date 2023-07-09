@@ -7,11 +7,11 @@
     <title>Saylani-Admission-Student-Form</title>
 </head>
 
-<body>
+<body bgcolor="#A2D9CE ">
     <center>
         <img src="../Saylani-Admission-Student-Form/img/Logo.png" alt="Saylani-Admission-Student-Form-Logo">
         <h1>
-            <U>STUDENT REJISTRATION FORM</U>
+            <U>STUDENT REGISTRATION FORM</U>
         </h1>
         <form>
             <table bgcolor="#5DADE2">
@@ -22,7 +22,7 @@
                             <input required placeholder="Enter Your First Name" type="text" Name="First Name">
                         </p>
                     </td>
-                    <td width="60%"></td>
+                    <td width="0%"></td>
                 </tr>
                 <tr>
                     <td>
@@ -70,7 +70,7 @@
                         <p>
                             Address
                         </p>
-                        <textarea name="Address" id="Address" cols="50" rows="5"></textarea>
+                        <textarea name="Address" id="Address" cols="30" rows="5"></textarea>
                     </td>
                 </tr>
                 <tr>
@@ -265,7 +265,7 @@
                                 <option value="Northern Mariana Islands">Northern Mariana Islands</option>
                                 <option value="Norway">Norway</option>
                                 <option value="Oman">Oman</option>
-                                <option value="Pakistan">Pakistan</option>
+                                <option value="Pakistan" selected>Pakistan</option>
                                 <option value="Palau">Palau</option>
                                 <option value="Palestinian Territory, Occupied">Palestinian Territory, Occupied</option>
                                 <option value="Panama">Panama</option>
@@ -351,8 +351,84 @@
                     </td>
                 </tr>
                 <tr>
+                    <td>
+                        <p>
+                            Hobbies
+                            <input type="checkbox" name="Hobbies" value="Tourism"> Tourism
+                            <input type="checkbox" name="Hobbies" value="Foodies"> Foodies
+                            <input type="checkbox" name="Hobbies" value="Tourism"> Tourism
+                            <br>
+                            <input type="checkbox" name="Hobbies" value="Foodies"> Foodies
+                            <input type="text" name="Hobbies" placeholder="Enter Your Hobbies Name">
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Qualification</th>
+                    <th>
+                        Examanation
+                        <br>
+                        1 Class X
+                        <br>
+                        2 Class XII
+                        <br>
+                        3 Gradution
+                        <br>
+                        4 Master
+                    </th>
+                    <th>
+                        Board
+                        <br>
+                        <input type="text">
+                        <br>
+                        <input type="text">
+                        <br>
+                        <input type="text">
+                        <br>
+                        <input type="text">
+                    </th>
+                    <th>
+                        Percentage
+                        <br>
+                        <input type="text">
+                        <br>
+                        <input type="text">
+                        <br>
+                        <input type="text">
+                        <br>
+                        <input type="text">
+                    </th>
+                    <th>
+                        Year Of Passing
+                        <br>
+                        <input type="text">
+                        <br>
+                        <input type="text">
+                        <br>
+                        <input type="text">
+                        <br>
+                        <input type="text">
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        <p>
+                            COURSES
+                            <br>
+                            APPLIED FOR
+                            <input type="radio" name="Courses"> BCA
+                            <input type="radio" name="Courses"> B.com
+                            <input type="radio" name="Courses"> B.sc
+                            <input type="radio" name="Courses"> B.A
+                        </p>
+                    </td>
+                </tr>
+                <tr>
                     <th>
                         <button>Submit</button>
+                    </th>
+                    <th>
+                        <button>Reset</button>
                     </th>
                 </tr>
             </table>
